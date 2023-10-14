@@ -12,6 +12,7 @@
 		4469BB302ADA21FD007B2C59 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469BB2F2ADA21FD007B2C59 /* AlbumViewController.swift */; };
 		4469BB352ADA21FE007B2C59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4469BB342ADA21FE007B2C59 /* Assets.xcassets */; };
 		4469BB382ADA21FE007B2C59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4469BB362ADA21FE007B2C59 /* LaunchScreen.storyboard */; };
+		4469BB462ADA5A52007B2C59 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469BB452ADA5A52007B2C59 /* OtherViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4469BB342ADA21FE007B2C59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4469BB372ADA21FE007B2C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4469BB392ADA21FE007B2C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4469BB452ADA5A52007B2C59 /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				4469BB2F2ADA21FD007B2C59 /* AlbumViewController.swift */,
+				4469BB452ADA5A52007B2C59 /* OtherViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4469BB302ADA21FD007B2C59 /* AlbumViewController.swift in Sources */,
+				4469BB462ADA5A52007B2C59 /* OtherViewController.swift in Sources */,
 				4469BB2C2ADA21FD007B2C59 /* AppDelegate.swift in Sources */,
 				4469BB2E2ADA21FD007B2C59 /* SceneDelegate.swift in Sources */,
 			);
