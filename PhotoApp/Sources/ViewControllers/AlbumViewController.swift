@@ -1,6 +1,6 @@
 import UIKit
 
-class ViewController: UIViewController {
+class AlbumViewController: UIViewController {
     //MARK: - Outles
 
 
@@ -10,7 +10,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
-
         setupHierarchy()
         setupLayout()
     }

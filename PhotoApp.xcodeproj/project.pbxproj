@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		4469BB2C2ADA21FD007B2C59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469BB2B2ADA21FD007B2C59 /* AppDelegate.swift */; };
 		4469BB2E2ADA21FD007B2C59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469BB2D2ADA21FD007B2C59 /* SceneDelegate.swift */; };
-		4469BB302ADA21FD007B2C59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469BB2F2ADA21FD007B2C59 /* ViewController.swift */; };
+		4469BB302ADA21FD007B2C59 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469BB2F2ADA21FD007B2C59 /* AlbumViewController.swift */; };
 		4469BB352ADA21FE007B2C59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4469BB342ADA21FE007B2C59 /* Assets.xcassets */; };
 		4469BB382ADA21FE007B2C59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4469BB362ADA21FE007B2C59 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,7 +18,7 @@
 		4469BB282ADA21FD007B2C59 /* PhotoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4469BB2B2ADA21FD007B2C59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4469BB2D2ADA21FD007B2C59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4469BB2F2ADA21FD007B2C59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4469BB2F2ADA21FD007B2C59 /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
 		4469BB342ADA21FE007B2C59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4469BB372ADA21FE007B2C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4469BB392ADA21FE007B2C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,7 +99,7 @@
 		4469BB432ADA23A2007B2C59 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				4469BB2F2ADA21FD007B2C59 /* ViewController.swift */,
+				4469BB2F2ADA21FD007B2C59 /* AlbumViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -182,7 +182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4469BB302ADA21FD007B2C59 /* ViewController.swift in Sources */,
+				4469BB302ADA21FD007B2C59 /* AlbumViewController.swift in Sources */,
 				4469BB2C2ADA21FD007B2C59 /* AppDelegate.swift in Sources */,
 				4469BB2E2ADA21FD007B2C59 /* SceneDelegate.swift in Sources */,
 			);
@@ -254,7 +254,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -311,7 +311,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -332,9 +332,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PhotoApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -359,9 +359,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PhotoApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
