@@ -20,7 +20,11 @@ class AlbumViewController: UIViewController {
     //MARK: - Setup
     func navigationControllerSetting() {
         navigationController?.navigationBar.prefersLargeTitles = true
-        title = "My Albums"
+        navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "plus"),
+                                                           style: .plain,
+                                                           target: nil,
+                                                           action: nil)
+        title = "Albums"
     }
 
     func setupHierarchy() {

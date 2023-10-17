@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		446160912ADE096300882285 /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446160902ADE096300882285 /* PhotoModel.swift */; };
+		446160932ADE111700882285 /* ChangeSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446160922ADE111700882285 /* ChangeSections.swift */; };
 		4469BB2C2ADA21FD007B2C59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469BB2B2ADA21FD007B2C59 /* AppDelegate.swift */; };
 		4469BB2E2ADA21FD007B2C59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469BB2D2ADA21FD007B2C59 /* SceneDelegate.swift */; };
 		4469BB302ADA21FD007B2C59 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469BB2F2ADA21FD007B2C59 /* AlbumViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		446160902ADE096300882285 /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		446160922ADE111700882285 /* ChangeSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeSections.swift; sourceTree = "<group>"; };
 		4469BB282ADA21FD007B2C59 /* PhotoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4469BB2B2ADA21FD007B2C59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4469BB2D2ADA21FD007B2C59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4461608F2ADE093D00882285 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				446160902ADE096300882285 /* PhotoModel.swift */,
+				446160922ADE111700882285 /* ChangeSections.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		4469BB1F2ADA21FD007B2C59 = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +87,7 @@
 		4469BB402ADA2350007B2C59 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				4461608F2ADE093D00882285 /* Model */,
 				4469BB442ADA23AF007B2C59 /* Storyboard */,
 				4469BB432ADA23A2007B2C59 /* ViewControllers */,
 				4469BB422ADA2379007B2C59 /* App */,
@@ -188,6 +202,8 @@
 				4469BB302ADA21FD007B2C59 /* AlbumViewController.swift in Sources */,
 				4469BB462ADA5A52007B2C59 /* OtherViewController.swift in Sources */,
 				4469BB2C2ADA21FD007B2C59 /* AppDelegate.swift in Sources */,
+				446160932ADE111700882285 /* ChangeSections.swift in Sources */,
+				446160912ADE096300882285 /* PhotoModel.swift in Sources */,
 				4469BB2E2ADA21FD007B2C59 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
