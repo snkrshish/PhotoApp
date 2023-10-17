@@ -10,14 +10,19 @@ class AlbumViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
-        title = "Albums"
         setupHierarchy()
         setupLayout()
+        navigationControllerSetting()
     }
 
 
 
     //MARK: - Setup
+    func navigationControllerSetting() {
+        navigationController?.navigationBar.prefersLargeTitles = true
+        title = "My Albums"
+    }
+
     func setupHierarchy() {
 
     }

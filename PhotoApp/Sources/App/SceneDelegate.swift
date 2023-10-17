@@ -8,9 +8,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
         let tabBarController = UITabBarController()
-        let navigationController = UINavigationController(rootViewController: tabBarController)
+        let navigationController = UINavigationController(rootViewController: AlbumViewController())
         setupTabBarController(controller: tabBarController)
-        window?.rootViewController = navigationController
+        window?.rootViewController = tabBarController
         window?.makeKeyAndVisible()
     }
 
@@ -38,7 +38,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let controllers = [firstNavigationController, secondNavigationController, thirdNavigationController, fourthNavigationController]
 
         controller.tabBar.backgroundColor = .white
-        controller.tabBar.tintColor = .black
+        controller.tabBar.tintColor = .systemBlue
         controller.setViewControllers(controllers, animated: true)
     }
 }
