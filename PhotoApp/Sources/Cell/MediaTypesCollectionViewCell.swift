@@ -20,7 +20,6 @@ class MediaTypesCollectionViewCell: UICollectionViewCell {
 
     private lazy var imageCount: UILabel = {
         let label = UILabel()
-        label.font = UIFont.systemFont(ofSize: 15)
         label.textColor = .lightGray
         return label
     }()
@@ -59,7 +58,7 @@ class MediaTypesCollectionViewCell: UICollectionViewCell {
 
     private func setupLayout() {
         leftImage.snp.makeConstraints {
-            $0.leading.equalTo(contentView)
+            $0.leading.equalTo(contentView).offset(5)
             $0.centerY.equalTo(contentView)
         }
 
@@ -69,7 +68,7 @@ class MediaTypesCollectionViewCell: UICollectionViewCell {
         }
 
         imageCount.snp.makeConstraints {
-            $0.trailing.equalTo(contentView)
+            $0.trailing.equalTo(contentView).offset(-5)
             $0.top.bottom.equalTo(contentView)
         }
 

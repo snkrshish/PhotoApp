@@ -7,8 +7,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
+        let viewController = AlbumViewController()
         let tabBarController = UITabBarController()
-        let navigationController = UINavigationController(rootViewController: AlbumViewController())
+        let navigationController = UINavigationController(rootViewController: viewController)
         setupTabBarController(controller: tabBarController)
         window?.rootViewController = tabBarController
         window?.makeKeyAndVisible()

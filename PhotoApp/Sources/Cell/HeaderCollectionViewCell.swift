@@ -48,7 +48,7 @@ class HeaderCollectionViewCell: UICollectionReusableView {
 
         stripView.snp.makeConstraints {
             $0.width.top.equalTo(self)
-            $0.height.equalTo(0.5)
+            $0.height.equalTo(0.3)
         }
     }
 

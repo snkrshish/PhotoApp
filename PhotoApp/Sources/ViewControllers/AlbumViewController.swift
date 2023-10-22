@@ -43,7 +43,7 @@ class AlbumViewController: UIViewController {
 
                 let groupSize = NSCollectionLayoutSize(
                     widthDimension: .fractionalWidth(1 / 2.2),
-                    heightDimension: .fractionalHeight(1 / 1.7)
+                    heightDimension: .fractionalWidth(1 / 2 * 2)
                 )
 
                 let layoutGroup = NSCollectionLayoutGroup.vertical(layoutSize: groupSize, subitem: layoutItem, count: 2)
@@ -88,8 +88,8 @@ class AlbumViewController: UIViewController {
                                                                    trailing: 10)
 
                 let groupSize = NSCollectionLayoutSize(
-                    widthDimension: .fractionalWidth(1),
-                    heightDimension: .fractionalHeight(1 / 3.3)
+                    widthDimension: .fractionalWidth(1 / 1.1),
+                    heightDimension: .fractionalWidth(1 / 4 * 2)
                 )
 
                 let layoutGroup = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitem: layoutItem, count: 2)
@@ -146,7 +146,7 @@ class AlbumViewController: UIViewController {
 
                 layoutSection.contentInsets = NSDirectionalEdgeInsets(top: 10,
                                                                       leading: 0,
-                                                                      bottom: 10,
+                                                                      bottom: 30,
                                                                       trailing: 5)
                 let layoutSectionHeaderSize = NSCollectionLayoutSize(
                     widthDimension: .fractionalWidth(0.95),
@@ -177,7 +177,7 @@ class AlbumViewController: UIViewController {
 
                 let groupSize = NSCollectionLayoutSize(
                     widthDimension: .fractionalWidth(1),
-                    heightDimension: .estimated(40)
+                    heightDimension: .estimated(50)
                 )
                 let layoutGroup = NSCollectionLayoutGroup.horizontal(
                     layoutSize: groupSize,
@@ -189,7 +189,7 @@ class AlbumViewController: UIViewController {
                 layoutSection.contentInsets = NSDirectionalEdgeInsets(top: 10,
                                                                       leading: 0,
                                                                       bottom: 10,
-                                                                      trailing: 5)
+                                                                      trailing: 0)
                 let layoutSectionHeaderSize = NSCollectionLayoutSize(
                     widthDimension: .fractionalWidth(0.95),
                     heightDimension: .estimated(35)
