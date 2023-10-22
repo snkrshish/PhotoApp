@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		446160912ADE096300882285 /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446160902ADE096300882285 /* PhotoModel.swift */; };
-		446160932ADE111700882285 /* ChangeSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446160922ADE111700882285 /* ChangeSections.swift */; };
+		446160952ADE308200882285 /* MyAlbumsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446160942ADE308200882285 /* MyAlbumsCollectionViewCell.swift */; };
+		446160982ADE309B00882285 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 446160972ADE309B00882285 /* SnapKit */; };
+		4461609A2ADE309B00882285 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 446160992ADE309B00882285 /* SnapKit-Dynamic */; };
 		4469BB2C2ADA21FD007B2C59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469BB2B2ADA21FD007B2C59 /* AppDelegate.swift */; };
 		4469BB2E2ADA21FD007B2C59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469BB2D2ADA21FD007B2C59 /* SceneDelegate.swift */; };
 		4469BB302ADA21FD007B2C59 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469BB2F2ADA21FD007B2C59 /* AlbumViewController.swift */; };
 		4469BB352ADA21FE007B2C59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4469BB342ADA21FE007B2C59 /* Assets.xcassets */; };
 		4469BB382ADA21FE007B2C59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4469BB362ADA21FE007B2C59 /* LaunchScreen.storyboard */; };
 		4469BB462ADA5A52007B2C59 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469BB452ADA5A52007B2C59 /* OtherViewController.swift */; };
+		44A343322AE51D2100DA290B /* MediaTypesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A343312AE51D2100DA290B /* MediaTypesCollectionViewCell.swift */; };
+		44A343342AE53F5000DA290B /* HeaderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A343332AE53F5000DA290B /* HeaderCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		446160902ADE096300882285 /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
-		446160922ADE111700882285 /* ChangeSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeSections.swift; sourceTree = "<group>"; };
+		446160942ADE308200882285 /* MyAlbumsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlbumsCollectionViewCell.swift; sourceTree = "<group>"; };
 		4469BB282ADA21FD007B2C59 /* PhotoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4469BB2B2ADA21FD007B2C59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4469BB2D2ADA21FD007B2C59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +32,8 @@
 		4469BB372ADA21FE007B2C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4469BB392ADA21FE007B2C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4469BB452ADA5A52007B2C59 /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
+		44A343312AE51D2100DA290B /* MediaTypesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaTypesCollectionViewCell.swift; sourceTree = "<group>"; };
+		44A343332AE53F5000DA290B /* HeaderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +41,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				446160982ADE309B00882285 /* SnapKit in Frameworks */,
+				4461609A2ADE309B00882285 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				446160902ADE096300882285 /* PhotoModel.swift */,
-				446160922ADE111700882285 /* ChangeSections.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -90,6 +97,7 @@
 				4461608F2ADE093D00882285 /* Model */,
 				4469BB442ADA23AF007B2C59 /* Storyboard */,
 				4469BB432ADA23A2007B2C59 /* ViewControllers */,
+				44A343302AE4DAD100DA290B /* Cell */,
 				4469BB422ADA2379007B2C59 /* App */,
 			);
 			path = Sources;
@@ -129,6 +137,16 @@
 			path = Storyboard;
 			sourceTree = "<group>";
 		};
+		44A343302AE4DAD100DA290B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				446160942ADE308200882285 /* MyAlbumsCollectionViewCell.swift */,
+				44A343312AE51D2100DA290B /* MediaTypesCollectionViewCell.swift */,
+				44A343332AE53F5000DA290B /* HeaderCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +163,10 @@
 			dependencies = (
 			);
 			name = PhotoApp;
+			packageProductDependencies = (
+				446160972ADE309B00882285 /* SnapKit */,
+				446160992ADE309B00882285 /* SnapKit-Dynamic */,
+			);
 			productName = PhotoApp;
 			productReference = 4469BB282ADA21FD007B2C59 /* PhotoApp.app */;
 			productType = "com.apple.product-type.application";
@@ -173,6 +195,9 @@
 				Base,
 			);
 			mainGroup = 4469BB1F2ADA21FD007B2C59;
+			packageReferences = (
+				446160962ADE309B00882285 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 4469BB292ADA21FD007B2C59 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -199,10 +224,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				446160952ADE308200882285 /* MyAlbumsCollectionViewCell.swift in Sources */,
+				44A343342AE53F5000DA290B /* HeaderCollectionViewCell.swift in Sources */,
 				4469BB302ADA21FD007B2C59 /* AlbumViewController.swift in Sources */,
 				4469BB462ADA5A52007B2C59 /* OtherViewController.swift in Sources */,
+				44A343322AE51D2100DA290B /* MediaTypesCollectionViewCell.swift in Sources */,
 				4469BB2C2ADA21FD007B2C59 /* AppDelegate.swift in Sources */,
-				446160932ADE111700882285 /* ChangeSections.swift in Sources */,
 				446160912ADE096300882285 /* PhotoModel.swift in Sources */,
 				4469BB2E2ADA21FD007B2C59 /* SceneDelegate.swift in Sources */,
 			);
@@ -417,6 +444,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		446160962ADE309B00882285 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		446160972ADE309B00882285 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 446160962ADE309B00882285 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		446160992ADE309B00882285 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 446160962ADE309B00882285 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4469BB202ADA21FD007B2C59 /* Project object */;
 }

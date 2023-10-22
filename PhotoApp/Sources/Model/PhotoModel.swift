@@ -8,15 +8,15 @@ struct PhotoModel: Hashable {
 
 extension PhotoModel {
     static let modelsArray = [
-        [PhotoModel(title: "Недвание", image: ""),
-         PhotoModel(title: "Избранные", image: ""),
-         PhotoModel(title: "Картинки", image: ""),
-         PhotoModel(title: "WhatsApp", image: ""),
-         PhotoModel(title: "Instagramm", image: ""),
-         PhotoModel(title: "Pinterest", image: "")],
+        [PhotoModel(title: "Недвание", image: "swift"),
+         PhotoModel(title: "Избранные", image: "swift"),
+         PhotoModel(title: "Картинки", image: "swift"),
+         PhotoModel(title: "WhatsApp", image: "swift"),
+         PhotoModel(title: "Instagramm", image: "swift"),
+         PhotoModel(title: "Pinterest", image: "swift")],
 
-        [PhotoModel(title: "Люди", image: ""),
-         PhotoModel(title: "Места", image: "")],
+        [PhotoModel(title: "Люди", image: "swift"),
+         PhotoModel(title: "Места", image: "swift")],
 
         [PhotoModel(title: "Видео", image: "video"),
          PhotoModel(title: "Селфи", image: "person.crop.square"),
@@ -25,7 +25,7 @@ extension PhotoModel {
          PhotoModel(title: "Замедленно", image: "timelapse"),
          PhotoModel(title: "Серии", image: "square.stack.3d.down.right"),
          PhotoModel(title: "Снимки Экрана", image: "camera.viewfinder"),
-         PhotoModel(title: "Записи Экрана", image: "record"),
+         PhotoModel(title: "Записи Экрана", image: "record.circle"),
          PhotoModel(title: "Анимированные", image: "square.stack.3d.forward.dottedline")],
 
          [PhotoModel(title: "Импортированные", image: "square.and.arrow.down"),
